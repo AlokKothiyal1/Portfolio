@@ -43,9 +43,8 @@ class HomePage extends React.Component{
                 </div>
 
                 <div className={`mb-5 px-5 ${Styles.details}`}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto voluptas
-                     blanditiis est culpa tempora aperiam accusamus ullam ad reiciendis ipsum numquam 
-                     aliquid, dolor molestiae quod. Esse quos distinctio officiis repudiandae.
+                    A passionate aspiring Full Stack Developer skilled in MERN stack,moulded and shaped by Masai School's numerous training.Actively ready to join in a great
+                    lively team in a good start-up environment and give my best.
                 </div>
 
                 
