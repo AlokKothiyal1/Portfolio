@@ -15,8 +15,6 @@ class HomePage extends React.Component{
                     <div className={`position-absolute ${Styles.decorative_circle}`}></div>
                 </div>
 
-                
-
                 <div className={Styles.name}>
                     Alok Kothiyal
                 </div>
@@ -79,7 +77,6 @@ class HomePage extends React.Component{
                     lively team in a good start-up environment and give my best.
                 </div>
 
-                
                 <div className={ `row  my-5 ${Styles.skills}`}>
 
                     <div className="col-3"></div>
