@@ -24,31 +24,22 @@ class HomePage extends React.Component{
                 </div>
                 <br></br>
                 <div className="row">
-                    <div className="col-3">
+                    <div className="col-4">
 
                     </div>
-                    <div className="col-2">
+                    <div className="col-1 m-0">
                         <Link to={{pathname:"https://www.linkedin.com/in/alok-kothiyal-025191119/"}} target="_blank">
                             <img src="linkedin.png" alt="logo" width="40px"></img>
-                            <div>
-                               alok-kothiyal
-                            </div>
                         </Link>
                     </div>
-                    <div className="col-2">
+                    <div className="col-2 m-0">
                         <Link to={{pathname:"https://twitter.com/alok_kothiyal"}} target="_blank">
                             <img src="twitter.png" alt="logo" width="40px"></img>
-                            <div>
-                            alok_kothiyal
-                            </div>
                         </Link>
                     </div>
-                    <div className="col-2">
+                    <div className="col-1 m-0">
                         <Link to={{pathname:"https://github.com/AlokKothiyal1"}} target="_blank">
                             <img src="github.svg" alt="logo" width="40px"></img>
-                            <div>
-                                 alokKothiyal1
-                            </div>
                         </Link>
                     </div>
                 </div>
@@ -56,16 +47,19 @@ class HomePage extends React.Component{
                 <div className={`row m-4 ${Styles.details}`}>
                     <div className="col">
                         <MdLocationOn size="40px" color="#FFC831"/>
+                        <br></br>
                        Dehradun,India
                     </div>
 
                     <div className="col">
                        <MdCall size="40px" color="#FFC831"/> 
+                       <br></br>
                       +91 789 5108 898
                     </div>
 
                     <div className="col">
                         <MdEmail size="40px" color="#FFC831"/> 
+                        <br></br>
                        alokkothiyal08@gmail.com
                     </div>
                 </div>

@@ -47,7 +47,10 @@ class Proficiencies extends React.Component{
                     </div>
 
                 </div>
-                <div className="my-5 py-5">
+                <div className="py-5">
+                <div className={`mb-3 ${Styles.heading}`} >
+                    Github
+                </div>
                     <img src="git.png" alt="img"></img>
                 </div>
                 
