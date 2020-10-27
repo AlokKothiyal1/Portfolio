@@ -1,5 +1,8 @@
 import React from 'react'
 import Styles from './Proficiencies.module.css'
+import GitHubCalendar from 'react-github-calendar';
+import ReactTooltip from 'react-tooltip';
+
 
 class Proficiencies extends React.Component{
     render(){
@@ -10,53 +13,39 @@ class Proficiencies extends React.Component{
                     Proficiencies
                 </div>
                
-                <div className={`row d-flex ${Styles.proficiencies}`}>
+                <div className={`row justify-content-center ${Styles.proficiencies}`}>
 
-                    <div className="col-2"></div>
-
-                    <div className='col-2'>
+                    <div className='col-sm-12 col-md-5 col-lg-2'>
                         <img src="react.svg" alt="img"></img>
                         <div>React Apps</div>
-                            When it comes to react apps
-                                I have the strength of Atlas
-                            
                     </div>
 
-                    <div className='col-2'>
+                    <div className='col-sm-12 col-md-5 col-lg-2'>
                         <img src="front.svg" alt="img"></img>
                         <div>Frontend</div>
-                            I am the one who runs
-                                the show
-                            
                     </div>
 
-                    <div className='col-2'>
+                    <div className='col-sm-12 col-md-5 col-lg-2'>
                         <img src="back.svg" alt="img"></img>
                         <div>Backend</div>
-                            Now just that I can
-                                even host the show
-                            
                     </div>
 
-                    <div className='col-2'>
+                    <div className='col-sm-12 col-md-5 col-lg-2'>
                         <img src="database.svg" alt="img"></img>
                         <div>Data Structures</div>
-                            Putting the right blocks in the
-                                right place is just my thing
-                            
                     </div>
 
                 </div>
                 <div className="py-5">
-                <div className={`mb-3 ${Styles.heading}`} >
+                <div className={`mb-2 ${Styles.heading}`} >
                     Github
                 </div>
-                    <img src="git.png" alt="img"></img>
+                   
                 </div>
-                
+                <GitHubCalendar blockSize={20} blockMargin={5} fontSize={16} username="alokkothiyal1">
+                    <ReactTooltip delayShow={50} html />
+                </GitHubCalendar>
             </div>
-
-
         )
     }
 }

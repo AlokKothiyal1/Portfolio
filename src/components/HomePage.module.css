@@ -33,6 +33,7 @@ body{
 
 .skills img{
     width: 80px;
+    margin:20px;
 }
 .details{
     color:grey;

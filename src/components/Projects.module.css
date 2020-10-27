@@ -14,3 +14,8 @@
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 10px 100px rgba(0, 0, 0, 0.12);
 }
+.heading{
+    font-weight: bold;
+    font-size: 38px;
+    color: #555555;
+}
