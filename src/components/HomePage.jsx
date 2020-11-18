@@ -8,8 +8,8 @@ class HomePage extends React.Component{
 
     render(){
         return (
+            <>
             <div className={`container ${Styles.main_container}`}>
-
                 <div className={`my-3 position-relative ${Styles.profile_container}`}>
                     <img src="profile.jpg" alt="profile"></img>
                     <div className={`position-absolute ${Styles.decorative_circle}`}></div>
@@ -61,21 +61,26 @@ class HomePage extends React.Component{
                     A passionate aspiring Full Stack Developer skilled in MERN stack.
                     Actively ready to join in a great
                     lively team in a good start-up environment and give my best.
+                    <i><Link to={{pathname:"https://drive.google.com/file/d/1FjBNIpIiWdv8KjGrAQYe41IVTS0CibN5/view?usp=sharing"}} target="_blank">RESUME</Link></i>
                 </div>
 
-                <div className={ ` container ${Styles.skills}`}>
-                    <img src="html-5.svg" alt="logo"></img>
-                    <img src="css.svg" alt="logo"></img>
-                    <img src="js.svg" alt="logo"></img>
-                    <br></br>
-                    <img src="react.svg" alt="logo"></img>
-                    <img src="bootstrap.svg" alt="logo"></img>
-                    <img src="github.svg" alt="logo"></img>
+                <div className={ `container ${Styles.skills}`}>
+                    <img src="html-5.svg" className=" mx-2 mx-lg-5 my-3" alt="logo"></img>
+                    <img src="css.svg" className=" mx-2 mx-lg-5 my-3" alt="logo"></img>
+                    <img src="js.svg" className=" mx-2 mx-lg-5 my-3" alt="logo"></img>
+                    <img src="react.svg" className="mx-2 mx-lg-5 my-3" alt="logo"></img>
+                    <img src="redux.svg" className=" mx-2 mx-lg-5 my-3" alt="logo"></img>
+                    <img src="bootstrap.svg" className="mx-2 mx-lg-5 my-3" alt="logo"></img>
+                    <img src="express.png" className=" mx-2 mx-lg-5 my-3" alt="logo"></img>
+                    <img src="mongo.png" className=" mx-2 mx-lg-5 my-3" alt="logo"></img>
+                    <img src="github.svg" className="mx-2 mx-lg-5 my-3" alt="logo"></img>
                 </div>
                 
                 <br></br>
                 <br></br>
+                <br></br>
             </div>
+            </>
         )
     }
 }

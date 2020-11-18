@@ -7,6 +7,7 @@ import ReactTooltip from 'react-tooltip';
 class Proficiencies extends React.Component{
     render(){
         return (
+
             <div className= "my-5 container-fluid ">   
 
                 <div className={`mb-5 ${Styles.heading}`} >

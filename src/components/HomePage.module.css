@@ -33,7 +33,6 @@ body{
 
 .skills img{
     width: 80px;
-    margin:20px;
 }
 .details{
     color:grey;
@@ -49,4 +48,12 @@ body{
 }
 a div{
     color: #A8A8A8;
+}
+
+.pattern_down{
+    position: absolute;
+    top:10;
+    left: 0;
+    width: 100%;
+    z-index: -2;
 }
